@@ -74,12 +74,10 @@ p {
   display: flex;
   justify-content: end;
 }
-@media screen and (max-width: 972px) {
+@media screen and (max-width: 750px) {
   .hero {
     flex-direction: column;
   }
-}
-@media screen and (max-width: 972px) {
   .card {
     min-width: 388px;
   }
@@ -87,3 +85,4 @@ p {
     min-width: 390px;
   }
 }
+
